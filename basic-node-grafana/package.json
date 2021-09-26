@@ -1,0 +1,16 @@
+{
+  "name": "monitor-nodeapp",
+  "description": "Basic setup Node Grafana",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
