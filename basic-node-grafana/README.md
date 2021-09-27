@@ -25,3 +25,7 @@ npm start
 ## **Route**
 
 <http://localhost:3000>
+
+**Read Metric**
+
+<http://localhost:3000/metrics>
